@@ -51,7 +51,7 @@ export default function Form({user,show, handleSubmit, handleChange, handleClick
                 />
                 <br/>
                 <button type='submit' >Enviar turno</button>
-                <button type='onClick' onClick={handleClick}>Reset Form</button>
+                <button  onClick={handleClick}>Reset Form</button>
             </fieldset>
         </form>
         
